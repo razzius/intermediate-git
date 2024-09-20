@@ -6,7 +6,6 @@ patat:
   margins:
       left: auto
       right: auto
-      top: auto
 ...
 ---
 
@@ -25,13 +24,12 @@ Interrupt with questions plz
 
 ---
 
-*staging area*
-
-When you're working on any given thing in software, you might end up
-touching unrelated other things.
+*using the staging area*
 
 Often beginners to git will simply `git add .`
-then commit all their changes.
+and commit all changed files.
+
+. . .
 
 (IDEs often make this too easy)
 
@@ -43,9 +41,13 @@ Let's look at how to inspect the staging area with
 
 `git diff --cached`
 
+. . .
+
 and add to it one file at a time
 
 `git add file.java`
+
+. . .
 
 or even one line at a time
 
